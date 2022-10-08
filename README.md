@@ -76,6 +76,26 @@ outputChangeLogFile=src/main/resources/liquibase-outputChangeLog.xml
 ## Generate a ChangeLog From an Existing Database
 
 ```
+<dependency>
+    <groupId>org.liquibase</groupId>
+    <artifactId>liquibase-maven-plugin</artifactId>
+    <version>3.4.1</version>
+</dependency> 
+
+
+<plugins>
+    <plugin>
+        <groupId>org.liquibase</groupId>
+        <artifactId>liquibase-maven-plugin</artifactId>
+        <version>3.4.1</version>
+        <configuration>                  
+            <propertyFile>src/main/resources/liquibase.properties</propertyFile>
+        </configuration>                
+    </plugin> 
+</plugins>
+```
+
+```
 mvn liquibase:generateChangeLog
 ```
 
