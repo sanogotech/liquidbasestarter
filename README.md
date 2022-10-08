@@ -28,18 +28,26 @@ LiquidBase  DB  Changelog   Starter
        </dependency>
 ```
 
-## To roll back any changes
-
-```
-create the liquibase.rollback-file file in Spring Boot and generate a rollback script for changes associated with changesets
-```
 
 ## liquibase.properties
 
 ```
 Windows example: changelog-file: ..\path\to\changelog.sql
 Linux example: changelog-file: ../path/to/changelog.sql
+
+url=jdbc:mysql://localhost:3306/oauth_reddit
+username=tutorialuser
+password=tutorialmy5ql
+driver=com.mysql.jdbc.Driver
+outputChangeLogFile=src/main/resources/liquibase-outputChangeLog.xml
 ```
+
+## Generate a ChangeLog From an Existing Database
+
+```
+mvn liquibase:generateChangeLog
+```
+
 
 ## Generate a ChangeLog From Diffs Between Two Databases
 
