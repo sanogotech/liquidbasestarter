@@ -1,6 +1,8 @@
 # liquidbasestarter
 LiquidBase  DB  Changelog   Starter
 
+* Best  Sample :  https://github.com/sanogotech/liquibase-springboot
+
 ##  Docs
 - https://www.techgeeknext.com/spring-boot/spring-boot-liquibase-example#google_vignette
 - https://www.baeldung.com/liquibase-refactor-schema-of-java-app
