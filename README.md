@@ -3,7 +3,7 @@ LiquidBase  DB  Changelog   Starter
 
 ##  Docs
 - https://www.baeldung.com/liquibase-refactor-schema-of-java-app
--https://docs.liquibase.com/tools-integrations/springboot/using-springboot-with-maven.html
+- https://docs.liquibase.com/tools-integrations/springboot/using-springboot-with-maven.html
 
 
 ## Dependencies
