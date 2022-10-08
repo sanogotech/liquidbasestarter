@@ -18,10 +18,11 @@ create the liquibase.rollback-file file in Spring Boot and generate a rollback s
 create the liquibase.rollback-file file in Spring Boot and generate a rollback script for changes associated with changesets
 ```
 
-## To roll back any changes
+## liquibase.properties
 
 ```
-create the liquibase.rollback-file file in Spring Boot and generate a rollback script for changes associated with changesets
+Windows example: changelog-file: ..\path\to\changelog.sql
+Linux example: changelog-file: ../path/to/changelog.sql
 ```
 
 ## To roll back any changes
