@@ -35,4 +35,6 @@ create the liquibase.rollback-file file in Spring Boot and generate a rollback s
 
 ```
 create the liquibase.rollback-file file in Spring Boot and generate a rollback script for changes associated with changesets
+Ex:
+-- rollback drop table test_table;
 ```
