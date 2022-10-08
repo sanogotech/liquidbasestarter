@@ -6,10 +6,26 @@ LiquidBase  DB  Changelog   Starter
 -https://docs.liquibase.com/tools-integrations/springboot/using-springboot-with-maven.html
 
 
-## To roll back any changes
+## Dependencies
 
 ```
-create the liquibase.rollback-file file in Spring Boot and generate a rollback script for changes associated with changesets
+
+<parent>
+         <groupId>org.springframework.boot</groupId>
+         <artifactId>spring-boot-starter-parent</artifactId>
+         <version>2.5.3</version>
+         <relativePath/> <!-- lookup parent from repository -->
+</parent>
+
+          <dependency>
+                 <groupId>org.liquibase</groupId> 
+                 <artifactId>liquibase-core</artifactId>
+       </dependency>
+       
+       <dependency>
+                 <groupId>org.springframework.boot</groupId>
+                 <artifactId>spring-boot-starter-data-jpa</artifactId>
+       </dependency>
 ```
 
 ## To roll back any changes
