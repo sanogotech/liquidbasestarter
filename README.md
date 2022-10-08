@@ -31,6 +31,8 @@ LiquidBase  DB  Changelog   Starter
 ## application.properties
 
 ```
+spring.liquibase.change-log=classpath:liquibase-changeLog.xml   *.sql or xml or json or yaml
+spring.liquibase.enabled=false
 
 ```
 
