@@ -28,6 +28,11 @@ LiquidBase  DB  Changelog   Starter
        </dependency>
 ```
 
+## application.properties
+
+```
+
+```
 
 ## liquibase.properties
 
